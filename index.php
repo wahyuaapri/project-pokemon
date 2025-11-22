@@ -13,6 +13,7 @@
 
 
 
+
 <script>
   // REFRESH BUTTON ACTION
   document.getElementById("refreshBtn").addEventListener("click", () => {
@@ -279,6 +280,83 @@ toggle.addEventListener('click', () => {
 </style>
 </head>
 <body>
+
+<!-- NAVBAR GLASSY FUTURISTIC -->
+<nav class="navbar navbar-expand-lg glass shadow-sm px-3 py-2 mb-4"
+     style="
+       border-radius:20px;
+       background:rgba(255,255,255,0.06);
+       backdrop-filter:blur(12px);
+       border:1px solid rgba(255,255,255,0.12);
+       box-shadow:0 8px 24px rgba(0,0,0,0.35);
+     ">
+  <div class="container-fluid">
+
+    <!-- LOGO KIRI -->
+    <a class="navbar-brand d-flex align-items-center gap-2 text-white fw-bold" href="#">
+      <div style="
+        width:42px;height:42px;
+        border-radius:12px;
+        background:linear-gradient(135deg,var(--accent),#6bd5ff 70%);
+        display:grid;place-items:center;
+        font-family:Poppins;font-weight:700;
+        color:#011;">
+        PDX
+      </div>
+      <span style="font-size:1.05rem; font-family:Inter;">Pokédex Glass</span>
+    </a>
+
+    <!-- TOGGLER MOBILE -->
+    <button class="navbar-toggler border-0" type="button" data-bs-toggle="collapse" data-bs-target="#mainNav">
+      <span class="navbar-toggler-icon" 
+            style="filter:invert(1) brightness(200%);"></span>
+    </button>
+
+    <!-- NAV MENU -->
+    <div class="collapse navbar-collapse" id="mainNav">
+      <ul class="navbar-nav ms-auto mb-2 mb-lg-0 d-flex align-items-center gap-lg-3">
+
+        <li class="nav-item">
+          <a class="nav-link text-white fw-semibold" href="#" 
+             style="font-family:Inter; opacity:.9;">Home</a>
+        </li>
+
+        <li class="nav-item">
+          <a class="nav-link text-white fw-semibold" href="#" 
+             style="font-family:Inter; opacity:.9;">About</a>
+        </li>
+
+        <li class="nav-item">
+          <a class="nav-link text-white fw-semibold" href="#" 
+             style="font-family:Inter; opacity:.9;">Contact us</a>
+        </li>
+
+        <!-- REFRESH BUTTON BARU -->
+        <li class="nav-item ms-lg-3 mt-2 mt-lg-0">
+          <button id="refreshBtn" class="btn btn-sm btn-outline-light px-3 py-2 d-flex align-items-center gap-2"
+                  style="
+                    border-radius:14px;
+                    font-family:Inter;
+                    backdrop-filter:blur(12px);
+                  ">
+            <i class="bi bi-arrow-clockwise"></i>
+            Refresh
+          </button>
+        </li>
+
+      </ul>
+    </div>
+
+  </div>
+</nav>
+
+<script>
+  // REFRESH BUTTON ACTION
+  document.getElementById("refreshBtn").addEventListener("click", () => {
+    location.reload();
+  });
+</script>
+
 
 <div class="container">
 
