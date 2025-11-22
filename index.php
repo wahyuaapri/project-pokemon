@@ -323,12 +323,12 @@ toggle.addEventListener('click', () => {
 
         <li class="nav-item">
           <a class="nav-link text-white fw-semibold" href="#" 
-             style="font-family:Inter; opacity:.9;">Pokédex</a>
+             style="font-family:Inter; opacity:.9;">About</a>
         </li>
 
         <li class="nav-item">
           <a class="nav-link text-white fw-semibold" href="#" 
-             style="font-family:Inter; opacity:.9;">About</a>
+             style="font-family:Inter; opacity:.9;">Contact us</a>
         </li>
 
         <!-- REFRESH BUTTON BARU -->
