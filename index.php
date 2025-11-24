@@ -322,8 +322,9 @@ toggle.addEventListener('click', () => {
         </li>
 
         <li class="nav-item">
-          <a class="nav-link text-white fw-semibold" href="#" 
-             style="font-family:Inter; opacity:.9;">About</a>
+          <a href="about.php">About</a>
+
+
         </li>
 
         <li class="nav-item">

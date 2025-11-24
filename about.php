@@ -115,26 +115,26 @@
     <h2 class="section-title">Anggota Kelompok</h2>
     <div class="team">
         <div class="team-card">
-            <img src="https://ui-avatars.com/api/?name=Nama+1" alt="">
-            <h4>Nama 1</h4>
+            <img src="https://ui-avatars.com/api/?name=Wahyu" alt="">
+            <h4>wahyu</h4>
+            <p>Maintainer</p>
+        </div>
+
+        <div class="team-card">
+            <img src="https://ui-avatars.com/api/?name=Dani" alt="">
+            <h4>dhani</h4>
             <p>Developer</p>
         </div>
 
         <div class="team-card">
-            <img src="https://ui-avatars.com/api/?name=Nama+2" alt="">
-            <h4>Nama 2</h4>
+            <img src="https://ui-avatars.com/api/?name=Denny" alt="">
+            <h4>denny</h4>
             <p>Developer</p>
         </div>
 
         <div class="team-card">
-            <img src="https://ui-avatars.com/api/?name=Nama+3" alt="">
-            <h4>Nama 3</h4>
-            <p>Developer</p>
-        </div>
-
-        <div class="team-card">
-            <img src="https://ui-avatars.com/api/?name=Nama+4" alt="">
-            <h4>Nama 4</h4>
+            <img src="https://ui-avatars.com/api/?name=Navila" alt="">
+            <h4>Navila</h4>
             <p>Developer</p>
         </div>
     </div>
