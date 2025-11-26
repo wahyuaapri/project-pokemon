@@ -293,7 +293,7 @@ toggle.addEventListener('click', () => {
   <div class="container-fluid">
 
     <!-- LOGO KIRI -->
-    <a class="navbar-brand d-flex align-items-center gap-2 text-white fw-bold" href="#">
+    <a class="navbar-brand d-flex align-items-center gap-2 text-white fw-bold" href="index.php">
       <div style="
         width:42px;height:42px;
         border-radius:12px;
@@ -317,7 +317,7 @@ toggle.addEventListener('click', () => {
       <ul class="navbar-nav ms-auto mb-2 mb-lg-0 d-flex align-items-center gap-lg-3">
 
         <li class="nav-item">
-          <a class="nav-link text-white fw-semibold" href="#" 
+          <a class="nav-link text-white fw-semibold" href="index.php" 
              style="font-family:Inter; opacity:.9;">Home</a>
         </li>
 
@@ -327,7 +327,7 @@ toggle.addEventListener('click', () => {
         </li>
 
         <li class="nav-item">
-          <a class="nav-link text-white fw-semibold" href="#" 
+          <a class="nav-link text-white fw-semibold" href="contact.php" 
              style="font-family:Inter; opacity:.9;">Contact us</a>
         </li>
 
